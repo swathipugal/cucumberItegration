@@ -26,6 +26,7 @@ public class Stepdefs {
 		driver.findElement(By.name("userName")).sendKeys("Lalitha");
 		driver.findElement(By.name("password")).sendKeys("Password123");
 		driver.findElement(By.name("Login")).click();
+		System.out.println("print");
 	}
 	 
 	
